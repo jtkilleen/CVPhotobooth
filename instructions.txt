@@ -1,0 +1,11 @@
+Instructions:
+You need to use Python 2.6 > but not Python 3
+You also need to install OpenCV
+
+To work the application, stay about a meter or so back from the camera because
+it will fail if you are close. This is because it is trying to draw on the screen
+in space that doesn't exist and we couldn't figure out this bug.
+
+If you click on the screen, sunglasses will be taken on/off
+Thats it
+run it with python face2.py
